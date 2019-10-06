@@ -3,8 +3,8 @@
 }
 
 .body{
-  background: url('assets/field.jpg') no-repeat center;
-  background-size:contain;	
+	font-family:Verdana;
+	color:darkgray;
 }
 
 .menu{
@@ -26,7 +26,7 @@
 .profile-image{
 	float: left;
   width: 50%;
-  padding: 0 20px;
+  padding: 0 auto;
 }
 
 .img-me {
@@ -38,7 +38,7 @@
   filter: grayscale(50%);
 }
 
-img:hover {
+.img-me:hover {
   transform: scale(1.00);
 	padding: 3px;
   filter: grayscale(20%);
@@ -93,7 +93,6 @@ li {
 	.img-me {
 		width: 80%;
 		margin-left: 10%;
-		margin-right: 10%;
 	}
 	
 	h1{font-size: 6vw;}
